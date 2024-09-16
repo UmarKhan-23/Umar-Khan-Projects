@@ -1,4 +1,4 @@
-package Pathfinder.p2.src;
+
 
 public interface FrontendInterface {
     // Constructor:
