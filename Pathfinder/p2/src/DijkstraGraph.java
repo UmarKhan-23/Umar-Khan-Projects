@@ -1,5 +1,3 @@
-
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -167,7 +165,6 @@ public class DijkstraGraph<NodeType, EdgeType extends Number>
     }
   }
 
-  // TODO: implement 3+ tests in step 4.1
 
   /**
    * Test method for verifying the shortest path computation from node D to I.
