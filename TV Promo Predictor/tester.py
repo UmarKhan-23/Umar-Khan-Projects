@@ -58,8 +58,7 @@ def main():
         print("="*40)
 
     # output results
-    results = {"score":grade,
-               "accuracy": accuracy,
+    results = {"accuracy": accuracy,
                "date":datetime.now().strftime("%m/%d/%Y"),
                "latency": sec}
     with open("results.json", "w", encoding="utf-8") as f:
