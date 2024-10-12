@@ -1,5 +1,4 @@
 import java.io.FileNotFoundException;
-import java.util.*;
 
 /**
  * Interface for the front end for the Meteorite Catcher application.
