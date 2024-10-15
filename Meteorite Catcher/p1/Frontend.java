@@ -149,5 +149,11 @@ public class Frontend implements FrontendInterface {
     System.out.println(msg);
   }
 
+  public static void main(String[] args) {
+    BackendPlaceholder backendPlaceholder = new BackendPlaceholder();
+    Frontend frontend = new Frontend(backendPlaceholder);
+    frontend.startMainLoop();
+  }
+
 }
 
